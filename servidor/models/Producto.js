@@ -9,14 +9,17 @@ const ProductoSchema = mongoose.Schema({
     categoria: {
         type: String,
         require: true
+        
     },
     ubicacion: {
         type: String,
         require: true
+
     },
     precio: {
         type: Number,
         require: true
+
     },
     fechaCreacion: {
         type: Date,
